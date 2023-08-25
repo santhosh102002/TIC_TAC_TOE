@@ -1,9 +1,9 @@
 import './App.css';
-import Card from './components/Card/Card.js'
+import Grid from './components/Grid/Grid.js'
 function App() {
   return (
     <>
-     <Card/>
+    <Grid/>
     </>
   );
 }
