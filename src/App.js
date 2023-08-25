@@ -3,7 +3,7 @@ import Grid from './components/Grid/Grid.js'
 function App() {
   return (
     <>
-    <Grid/>
+    <Grid numberOfCards={9}/>
     </>
   );
 }

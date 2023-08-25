@@ -1,11 +1,13 @@
 import Card from "../Card/Card.js"
-function Grid(){
+import './Grid.css'
+function Grid({numberOfCards}){
 
     return (
-        <div>
-        <Card/>
-        <Card/> 
-        
+        <div className="grid">
+          {Array(numberOfCards).fill(<Card/>).map((el,indx)=>{
+            return <Card key={indx}/>
+          })}
+
         </div>
       
 
