@@ -1,9 +1,9 @@
 import Icons from "../Icons/Icons.js"
 import './Card.css'
-function Card(){
+function Card({IconName}){
 return (
    <div className="card">
-    <Icons/>
+    <Icons name={IconName} />
    </div>
 )
 }
