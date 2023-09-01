@@ -1,4 +1,5 @@
 import {FaTimes, FaPen, FaRegCircle} from 'react-icons/fa'
+import {memo} from 'react'
 function Icons({name}){
 if(name == 'circle'){
     return <FaRegCircle/>
@@ -11,4 +12,4 @@ else{
 }
 }
 
-export default Icons;
+export default memo(Icons);
